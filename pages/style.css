@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/assets/background1.jpg);
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container{
+    background-color: rgba(red, green, blue, 0.5);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    height: 30pt;
+}
+
+.video-layout {
+    display: flex;
+    margin-right: 20px;
+    margin-top:20px;
+}
+.video {
+    width: 640px;
+    height: 480px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 7cm;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group button {
+    background-color: #619919;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.form-group button:hover{
+    background-color: #86c92e;
+}
+
+.login_video {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.captcha-img {
+    width: 285px;
+    height: 70px;
+}
