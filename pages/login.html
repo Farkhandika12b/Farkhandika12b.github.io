@@ -1,40 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Halaman Login</title>
-  <link rel="stylesheet" type="text/css" href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="login_video">
-        <div class="login-container">
-            <div class="logo">
-                <img src="/assets/instagram-icon-original.svg" alt="logo">
+    <div class="login-container">
+        <h2>Silahkan masukkan informasi akun anda</h2>
+        <form action="proses_login.php" method="POST">
+            <div class="image-container">
+                <img src="/assets/xampp.png" alt="" class="gambar1">
+            </div><br>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
             </div>
-            <h2>Login</h2>
-            <form action="#" method="get">
-                <div class="form-group">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" name="username" placeholder="Masukkan username" required>
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Masukkan password" required>
-                </div>
-                <div class="form-group">
-                    <label for="captcha">Captcha</label>
-                    <img class="captcha-img" src="/assets/captcha.png" alt="captcha"><br>
-                    <input type="text" name="captcha" id="captcha" placeholder="Ketikkan captcha" required>
-                </div>
-                <div class="form-group">
-                    <button type="submit">Login</button>
-                </div>
-            </form>       
-        </div>
-        <div class="video-layout">
-            <video class="video" autoplay loop muted playsinline>
-                <source src="/assets/green_particle_looping_video.mp4">
-            </video>
-        </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <video autoplay loop muted><source src="/assets/green_particle_looping_video.mp4" type="video/mp4"></video>
+            <div class="captcha">
+                <img src="/assets/captcha.png" alt="" class="gambar2">
+                <label for="captcha">captcha</label>
+                <input type="text" name="captcha" id="captcha" required>
+            </div><br>
+            <button type="submit">Login</button>
+        </form>
     </div>
 </body>
 </html>
