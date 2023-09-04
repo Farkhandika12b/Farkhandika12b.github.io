@@ -11,7 +11,8 @@ body {
 
 .login-container {
     background-color: rgba(255, 255, 255, 0.438);
-    padding: 20px;
+    padding-right: 80px;
+    padding-bottom: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(31, 214, 153, 0.623);
     text-align: center;
@@ -26,7 +27,7 @@ body {
 h2 {
     margin-bottom: 20px;
     position: relative;
-    left: 300px;
+    left: 345px;
 }
 
 .input-group {
