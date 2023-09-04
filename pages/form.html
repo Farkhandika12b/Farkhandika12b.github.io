@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body style="background-color:  rgb(209, 209, 209);">
+    <div class="form utama">
+        <h1>Form pendaftaran Studi Independen 2023-PT Arkatama Multi Solusindo</h1>
+        <form action="post">
+        <label for="username">Nama</label><br>
+        <input type="username" id="username" placeholder="Nama lengkap" required><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Email aktif" required><br><br>
+        <label for="NoHP">No HP</label><br>
+        <input type="text" id="NoHP" placeholder="No HP aktif" required><br><br>
+        <label for="jenisKel">Jenis Kelamin</label><br>
+        <input type="radio" name="jenisKel" value="Laki-laki">Laki-laki<br>
+        <input type="radio" name="jenisKel" value="Perempuan">Perempuan <br><br>
+        <label for="Prodi">Prodi</label><br>
+        <select id="Prodi" name="Prodi">
+            <option value="Pilih">Pilih</option>
+            <option value="Teknologi Informasi">Teknologi Informasi</option>
+            <option value="Rekayasa Otomotif">Rekayasa Otomotif</option>
+            <option value="Teknik Sipil">Teknik Sipil</option>
+        </select><br>
+        <label for="hobi">Hobi</label><br> 
+            <input type="checkbox" name="hobi" id="hobi">Membaca <br>
+            <input type="checkbox" name="hobi" id="hobi">Game <br>
+            <input type="checkbox" name="hobi" id="hobi">Olahraga <br><br>
+        <label for="Alamat">Alamat</label><br>
+        <textarea name="" id="" cols="25" rows="3" placeholder="Alamat lengkap"></textarea><br><br>
+        <label for="fotodiri">Foto Diri</label><br>
+        <input type="file" name="fotodiri" id="fotodiri"><br>
+        <input type="submit" value="Daftar">
+    </form>
+    </div> 
+</body>
+</html>
