@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #666666;
+    background-color: #282b33;
     padding: 20px;
 }
 
@@ -16,13 +16,14 @@ body {
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-between;
+    
 }
 
 .produk {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 10px;
     width: calc(33.33% - 20px); /* Mengatur tampilan 3 kolom pada tampilan desktop */
     margin-bottom: 20px;
 }
@@ -42,15 +43,14 @@ h1{
     color: rgb(255, 255, 255);
 }
 
-h2 {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
 p {
-    font-size: 16px;
+    font-size: 18px;
     color: #555;
     margin-top: 5px;
 }
 
-
+.produk-list .produk .produk-title{
+    background-color: #af0000;
+    padding: 10px;
+    color: #fff;
+}
