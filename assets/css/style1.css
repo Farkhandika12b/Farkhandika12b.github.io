@@ -13,12 +13,14 @@ body {
 
 /*header bar*/
 .header-bar {
-    background-color: #af0000; /* Warna latar belakang footer bar */
+    background-color: #af0000; /* Warna latar belakang Header bar */
     text-align: center; /* Teks berada di tengah */
     padding: 10px; /* Ruang di sekitar teks */
-    position: fixed; /* Footer tetap di bagian bawah layar */
-    width: 95%; /* Lebarkan footer ke seluruh lebar layar */
-    top: 0; /* Tempatkan di bagian bawah */
+    position: fixed; /* Header tetap di bagian bawah layar */
+    width: 100%; /* Lebarkan Header ke seluruh lebar layar */
+    top: 0; /* Tempatkan di bagian atas panel */
+    left: 0;/*Menempelkan ke kiri panel*/
+    right: 0;/*Menempelkan ke kanan panel*/
     display: grid;
     grid-template-columns: 0fr 1fr; /* Masing-masing objek akan memakan setengah dari lebar container */
     grid-gap: 10px; /* Jarak antara objek */
