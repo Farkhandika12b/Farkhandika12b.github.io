@@ -13,11 +13,12 @@ body {
 
 /*header bar*/
 .header-bar {
-    background-color: #af0000; /* Warna latar belakang Header bar */
+    z-index: 1;
+    background-color: rgb(0,114,246); /* Warna latar belakang Header bar */
     border-radius: 0px 0px 20px 20px;
     text-align: center; /* Teks berada di tengah */
     padding: 10px; /* Ruang di sekitar teks */
-    position: fixed; /* Header tetap di bagian bawah layar */
+    position: fixed; /* Header tetap di bagian atas layar */
     width: 100%; /* Lebarkan Header ke seluruh lebar layar */
     top: 0; /* Tempatkan di bagian atas panel */
     left: 0;/*Menempelkan ke kiri panel*/
@@ -30,6 +31,34 @@ body {
     color:#fff;
 }
 
+/*best seller*/
+.bestseller-container{
+    padding-top: 80px;
+
+}
+.viewall-button a {
+    display: inline-block;
+    background-color: #ee626b;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 30px;
+    border-radius: 25px;
+    transition: all .3s;
+}
+.bestseller-viewall{
+    display: grid;
+    grid-template-columns: 1fr 0fr ;
+}
+.viewall-button a:hover {
+    background-color: #0071f8;
+    color: #fff;
+  }
+
 /*menu icon*/
 .menu-icon {
     display: block;
@@ -38,13 +67,12 @@ body {
 .bar {
     width: 25px;
     height: 3px;
-    background-color: #d8cccc;
+    background-color: #ffffff;
     margin: 6px auto;
 }
 
 /*list product*/
-.produk-list {
-    background-color: #565963;
+.produk-list-1{
     margin: 5%;
     border-radius: 10pt;
     display: flex;
@@ -52,20 +80,38 @@ body {
     text-align: center;
     justify-content: space-between;
     padding-top: 10pt;
+    position: relative; /*atur posisi product list container*/
+    top: 20px; /* Tetap 10 piksel dari atas */
+}
+.produk-list-2{
+    margin: 5%;
+    border-radius: 10pt;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10pt;
+    position: relative; /*atur posisi product list container*/
+    top: 40px; /* Tetap 10 piksel dari atas */
 }
 .produk {
     background-color: #fff;
     border-radius: 30px 5px 30px 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
-    width: calc(33.33% - 20px); /* Mengatur tampilan 3 kolom pada tampilan desktop */
-    margin-bottom: 20px;
+    width: calc(33.33% - 30px); /* Mengatur tampilan 3 kolom pada tampilan desktop */
 }
 .produk img {
     max-width: 100%;
     height: auto;
 }
-.produk-list .produk .produk-title{
+.produk-list-1 .produk .produk-title-1{
+    background-color: #af0000;
+    padding: 10px;
+    color: #fff;
+    border-radius: 30px 5px 30px 5px;
+}
+.produk-list-2 .produk .produk-title-2{
     background-color: #af0000;
     padding: 10px;
     color: #fff;
@@ -82,5 +128,13 @@ p {
     font-size: 18px;
     color: #555;
     margin-top: 5px;
+}
+
+h3 {
+    color: #f3756b;
+    padding-bottom: 10px;
+}
+h1{
+    color: #fff;
 }
 
