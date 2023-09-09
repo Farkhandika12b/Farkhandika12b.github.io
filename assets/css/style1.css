@@ -1,4 +1,4 @@
-/* stylesheet for product.html */
+/*root*/
 * {
     margin: 0;
     padding: 0;
@@ -11,14 +11,45 @@ body {
     padding: 20px;
 }
 
+/*header bar*/
+.header-bar {
+    background-color: #af0000; /* Warna latar belakang footer bar */
+    text-align: center; /* Teks berada di tengah */
+    padding: 10px; /* Ruang di sekitar teks */
+    position: fixed; /* Footer tetap di bagian bawah layar */
+    width: 95%; /* Lebarkan footer ke seluruh lebar layar */
+    top: 0; /* Tempatkan di bagian bawah */
+    display: grid;
+    grid-template-columns: 0fr 1fr; /* Masing-masing objek akan memakan setengah dari lebar container */
+    grid-gap: 10px; /* Jarak antara objek */
+}
+.header-bar-text{
+    color:#fff;
+}
+
+/*menu icon*/
+.menu-icon {
+    display: block;
+    cursor: pointer;
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #d8cccc;
+    margin: 6px auto;
+}
+
+/*list product*/
 .produk-list {
+    background-color: #565963;
+    margin: 5%;
+    border-radius: 10pt;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-between;
-    
+    padding-top: 10pt;
 }
-
 .produk {
     background-color: #fff;
     border-radius: 30px 5px 30px 5px;
@@ -27,17 +58,18 @@ body {
     width: calc(33.33% - 20px); /* Mengatur tampilan 3 kolom pada tampilan desktop */
     margin-bottom: 20px;
 }
-
 .produk img {
     max-width: 100%;
     height: auto;
 }
-
-h1{
-    text-align: center;
-    color: white;
+.produk-list .produk .produk-title{
+    background-color: #af0000;
+    padding: 10px;
+    color: #fff;
+    border-radius: 30px 5px 30px 5px;
 }
 
+/*text and other*/
 #description{
     text-align: center;
     color: rgb(255, 255, 255);
@@ -49,9 +81,3 @@ p {
     margin-top: 5px;
 }
 
-.produk-list .produk .produk-title{
-    background-color: #af0000;
-    padding: 10px;
-    color: #fff;
-    border-radius: 30px 5px 30px 5px;
-}
