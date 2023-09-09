@@ -14,6 +14,7 @@ body {
 /*header bar*/
 .header-bar {
     background-color: #af0000; /* Warna latar belakang Header bar */
+    border-radius: 0px 0px 20px 20px;
     text-align: center; /* Teks berada di tengah */
     padding: 10px; /* Ruang di sekitar teks */
     position: fixed; /* Header tetap di bagian bawah layar */
