@@ -2,21 +2,22 @@ body {
     font-family: Arial, sans-serif;
     background-image: url(/assets/background1.jpg);
     background-size: cover;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
 }
-
 .login-container {
     background-color: rgba(255, 255, 255, 0.438);
-    padding-right: 80px;
-    padding-bottom: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(31, 214, 153, 0.623);
     text-align: center;
-    
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    position: relative;
+
+
 }
 
 .gambar1{
@@ -63,8 +64,10 @@ button:hover {
 }
 
 video{
-    width: 640px;
+    width: 480px;
     height: auto;
+    position: relative;
+    top: 230px;
 }
 
 .inline-block{
