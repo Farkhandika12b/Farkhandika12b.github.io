@@ -4,28 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style1.css">
-    <script src="../assets/js/landing.js"></script>
     <title>Product Page</title>
+
 </head>
 <body>
     <!-- header-->
-    <header class="header-bar">
-        <p></p>
-        <img src="../assets/logo_wasp21-removebg-preview_crop.png" alt="logo" class="logo">
-        <p class="header-bar-text">Home</p>
-        <div class="menu-icon">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
+    <header>
+        <img src="/assets/logo_wasp21-removebg-preview_crop.png" alt="logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li class="dropdown" id="produkDropdown">
+                    <a href="#" class="dropbtn" onclick="toggleDropdown()">Produk</a>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#">Kategori 1</a>
+                        <a href="#">Kategori 2</a>
+                        <a href="#">Kategori 3</a>
+                    </div>
+                </li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
     </header>
+
     <!--best seller-->
     <div class="bestseller-container">
         <h3>BestSeller</h3>
         <div class="bestseller-viewall">
             <h1>BestSeller Laptops</h1>
             <div class="viewall-button">
-                <a href="">ViewAll</a>
+                <a onclick="tampilkanPopUp()" href="">ViewAll</a>
             </div>
         </div>
     </div>
@@ -123,5 +131,7 @@
     <footer>
         <p class="footer">Design by : Farkhandika12b</p>
     </footer>
+
+    <script src="../assets/js/landing.js"></script>
 </body>
 </html>
