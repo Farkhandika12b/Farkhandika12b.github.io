@@ -16,84 +16,13 @@ header {
     background-color: #0071f8;
     color: rgb(173, 72, 72);
     padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 0fr 1fr 0fr 0fr;
+    grid-column-gap: 10px;
 }
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-}
-
 .logo{
     width: 120px;
     height: auto;
-}
-
-/* Gaya dropdown */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropbtn {
-    background-color:#0071f8;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 4px;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 14px;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #0052b6;
-    transform: scale(1.05);
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-.nav-link:hover {
-    color: #ee626b;
-    transition: color 0.3s;
-}
-
-/* Animasi tombol dropdown saat hover */
-.dropdown-content {
-    animation: fadeIn 0.3s;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to   { opacity: 1; }
 }
 
 /*footer*/
