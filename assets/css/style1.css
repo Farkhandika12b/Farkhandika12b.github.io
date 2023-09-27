@@ -36,40 +36,10 @@ nav a {
     color: white;
 }
 
-.carousel {
-    width: 100%;
-    overflow: hidden;
-}
-
-.carousel img {
-    width: 100%;
-    display: none;
-}
-
-/* Gaya untuk menampilkan slide aktif */
-.carousel img.active {
-    display: block;
-}
-
-/* Animasi slide */
-.carousel img {
-    animation: fadeInOut 4s linear infinite alternate;
-}
-
-@keyframes fadeInOut {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 .logo{
     width: 120px;
     height: auto;
 }
-/* ... kode CSS sebelumnya ... */
 
 /* Gaya dropdown */
 .dropdown {
@@ -106,13 +76,13 @@ nav a {
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+    background-color: #0052b6;
     transform: scale(1.05);
     transition: background-color 0.3s, transform 0.3s;
 }
 
 .nav-link:hover {
-    color: #3e8e41;
+    color: #ee626b;
     transition: color 0.3s;
 }
 
