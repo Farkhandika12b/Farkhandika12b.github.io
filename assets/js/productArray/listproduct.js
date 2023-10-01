@@ -16,14 +16,14 @@ var products = [
         price: "$338"
     },
     {
-        title: "Acer Swift 3",
-        imageSrc: "/assets/product-list/Acer-swift-3.png",
-        price: "$338"
+        title: "Acer Aspire 3",
+        imageSrc: "/assets/product-list/Acer-Aspire-3.png",
+        price: "$358"
     },
     {
-        title: "Acer Swift 3",
-        imageSrc: "/assets/product-list/Acer-swift-3.png",
-        price: "$338"
+        title: "Acer Nitro 7",
+        imageSrc: "/assets/product-list/Acer-nitro-7.png",
+        price: "$459"
     },
     {
         title: "Acer Swift 3",
