@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/productAPI.css">
+    <title>Product API</title>
+</head>
+<body>
+    <!-- header-->
+    <header class="header-bar">
+        <p></p>
+        <img src="../assets/logo_wasp21-removebg-preview_crop.png" alt="logo" class="logo">
+        <p class="header-bar-text">Home</p>
+        <div class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+    <!--best seller-->
+    <div class="bestseller-container">
+        <h3>BestSeller</h3>
+        <div class="bestseller-viewall">
+            <h1>BestSeller Laptops</h1>
+            <div class="viewall-button">
+                <a href="">ViewAll</a>
+            </div>
+        </div>
+    </div>
+    <!--List Product-->
+    <div class="produk-list"></div>
+    <br>
+    <!--Testimoni-->
+    <div class="testimoni_container">
+        <h1>Customer Testimonials</h1><br><br>
+        <div id="testimonial-slider"></div>
+        <div class="prev-next_button">
+            <button class="prev" onclick="scrollTestimonials(-1)">Prev</button>
+            <p></p>
+            <button class="next" onclick="scrollTestimonials(1)">Next</button>
+        </div>
+        <script src="/assets/js/productAPI/listproduct.js"></script>
+        <script src="/assets/js/productAPI/testimoni.js"></script>
+    </div>
+    <!-- footer-->
+    <footer>
+        <p class="footer">Design by : Farkhandika12b</p>
+    </footer>
+</body>
+</html>
