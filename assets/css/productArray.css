@@ -154,6 +154,65 @@ footer{
     
 }
 
+/* Testimoni*/
+.testimoni_container{
+    position: relative;
+    top: 70px;
+}
+#testimonial-slider {
+    width: 100%; /* Lebar slider mengisi seluruh lebar container */
+    height: 150px;
+    overflow-x:hidden; /* Menyediakan scroll horizontal jika diperlukan */
+    white-space: nowrap; /* Memastikan testimonial tetap dalam satu baris */
+    text-align: left;
+  }
+  
+.testimonial {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+  
+.testimonial .stars {
+    color: #ffda09;
+}
+  
+.testimonial .content {
+    font-size: 16px;
+}
+  
+.testimonial .rating {
+    font-size: 20px;
+    margin-left: auto;
+}
+.prev, .next {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.prev {
+    margin-right: 10px;
+}
+.prev-next_button{
+    position: relative;
+    top: -40px;
+    display: grid;
+    grid-template-columns: 0fr 1fr 0fr;
+}
+
 /*text and other*/
 #description{
     text-align: center;
