@@ -19,6 +19,14 @@ header {
     display: grid;
     grid-template-columns: 0fr 1fr 0fr 0fr;
     grid-column-gap: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+}
+.header-bar-text{
+    color: #ffffff;
 }
 .logo{
     width: 120px;
@@ -85,7 +93,7 @@ footer{
 }
 
 /*list product*/
-.produk-list-1{
+.produk-list{
     margin: 5%;
     border-radius: 10pt;
     display: flex;
@@ -96,35 +104,19 @@ footer{
     position: relative; /*atur posisi product list container*/
     top: 20px; /* Tetap 10 piksel dari atas */
 }
-.produk-list-2{
-    margin: 5%;
-    border-radius: 10pt;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: space-between;
-    padding-top: 10pt;
-    position: relative; /*atur posisi product list container*/
-    top: 40px; /* Tetap 10 piksel dari atas */
-}
 .produk {
     background-color: #a8a8a83a;
     border-radius: 30px 5px 30px 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
+    margin-bottom: 20px;
     width: calc(33.33% - 30px); /* Mengatur tampilan 3 kolom pada tampilan desktop */
 }
 .produk img {
     max-width: 100%;
     height: auto;
 }
-.produk-list-1 .produk .produk-title-1{
-    background-color: #0071f8;
-    padding: 10px;
-    color: #fff;
-    border-radius: 30px 5px 30px 5px;
-}
-.produk-list-2 .produk .produk-title-2{
+.produk-list .produk .produk-title{
     background-color: #0071f8;
     padding: 10px;
     color: #fff;

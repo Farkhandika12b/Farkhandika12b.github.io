@@ -1,3 +1,4 @@
+//testimoni pelanggan
 const testimonials = [
     {
         name: "X_Player",
