@@ -1,5 +1,5 @@
 // mengambil data dari API
-fetch('https://crudcrud.com/api/0162ae9101ca4c80a7fb13ac5f984fc7/list-products')
+fetch('https://651a8471340309952f0d72a6.mockapi.io/product')
     .then(response => response.json())
     .then(data => {
         var products = data; // Simpan data dari API ke dalam variabel products
