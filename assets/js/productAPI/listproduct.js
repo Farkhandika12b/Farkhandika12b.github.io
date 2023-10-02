@@ -1,5 +1,5 @@
 // mengambil data dari API
-fetch('https://651a8471340309952f0d72a6.mockapi.io/product')
+fetch('https://my-json-server.typicode.com/Farkhandika12b/my-json-server21/product')
     .then(response => response.json())
     .then(data => {
         var products = data; // Simpan data dari API ke dalam variabel products
