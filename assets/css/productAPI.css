@@ -225,5 +225,33 @@ h1{
     color: #000000;
 }
 
+/*Renponsive Design*/
+@media screen and (max-width: 992px) {
+    /* Adjustments for tablets and smaller screens */
+    header {
+        grid-template-columns: 0fr 1fr 0fr 0fr;
+        text-align: center;
+    }
+    .bestseller-viewall {
+        grid-template-columns: 1fr;
+    }
+    .produk {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
 
-
+@media screen and (max-width: 576px) {
+    /* Adjustments for mobile devices */
+    .produk-list {
+        margin: 2%;
+    }
+    .testimonial {
+        width: 100%; /* Full width on smaller screens */
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .prev-next_button {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}
