@@ -254,4 +254,14 @@ h1{
         grid-template-columns: 1fr;
         justify-content: center;
     }
+    header {
+        grid-template-columns: 0fr 1fr 0fr 0fr;
+        text-align: center;
+    }
+    .bestseller-viewall {
+        grid-template-columns: 1fr;
+    }
+    .produk {
+        width: 100%; /* Full width on smaller screens */
+    }
 }
