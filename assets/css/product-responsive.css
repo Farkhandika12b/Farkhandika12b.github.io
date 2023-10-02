@@ -236,10 +236,9 @@ h1{
         grid-template-columns: 1fr;
     }
     .produk {
-        width: 100%; /* Full width on smaller screens */
+        width: 100%;
     }
 }
-
 @media screen and (max-width: 576px) {
     /*mobile devices screens*/
     .produk-list {
