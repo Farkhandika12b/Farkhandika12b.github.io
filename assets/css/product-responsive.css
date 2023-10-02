@@ -227,7 +227,7 @@ h1{
 
 /*Renponsive Design*/
 @media screen and (max-width: 992px) {
-    /* Adjustments for tablets and smaller screens */
+    /* tablets and smaller screens */
     header {
         grid-template-columns: 0fr 1fr 0fr 0fr;
         text-align: center;
@@ -241,12 +241,12 @@ h1{
 }
 
 @media screen and (max-width: 576px) {
-    /* Adjustments for mobile devices */
+    /*mobile devices screens*/
     .produk-list {
         margin: 2%;
     }
     .testimonial {
-        width: 100%; /* Full width on smaller screens */
+        width: 100%;
         margin-right: 0;
         margin-bottom: 20px;
     }

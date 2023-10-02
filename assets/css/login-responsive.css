@@ -76,3 +76,17 @@ video{
         width: 50%;
     }
 }
+@media screen and (max-width: 576px) {
+    .login-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .info {
+        left: auto;
+        right: auto;
+    }
+
+    video {
+        width: 50%;
+    }
+}
